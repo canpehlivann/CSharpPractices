@@ -7,7 +7,7 @@ namespace LambdaFunctions
     public class Employee
     {
         private readonly List<EmployeeModel> allEmployees;
-        public Employee()
+        public Employee() //HACK: I think now without doing something hard no one can access neither allEmployees nor props.
 
         {
             allEmployees = new List<EmployeeModel>
